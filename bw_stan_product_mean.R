@@ -1,8 +1,15 @@
-## Last ran on 04/26: Plots saved in grayscale for Biometrika. 
+
+
+## This R code calls the Stan code for bivariate shrinkage priors 
+## for the Efron's product means problem, i.e. where the parameter
+## of interest is psi = theta_1*theta_2. 
+## Please see the 2016 Biometrika paper: "Default Bayes" by Bhadra et al. 
+
 
 rm(list=ls())
-setwd("C:/Users/Jyotishka/OneDrive/Documents/R/HSPlus")
-#source("bivar_priors_stan_0225.R")
+
+setwd("~/GitHub/BivariateHSstan")
+
 source("bivar_priors_stan_0324.R")
 
 set.seed(657)
